@@ -7,8 +7,7 @@ class Ender3tf2sdPlugin(octoprint.plugin.OctoPrintPlugin):
 	def convert_tf_to_sd(self, comm, line, *args, **kwargs):
 		if "TF" not in line:
 			return line
-		line.replace("TF","SD")
-		return line
+		return line.replace("TF","SD")
 
 	def get_update_information(self):
 		# Define the configuration for your plugin to use with the Software Update
