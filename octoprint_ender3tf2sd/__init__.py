@@ -1,6 +1,5 @@
 # coding=utf-8
 from __future__ import absolute_import
-
 import octoprint.plugin
 
 class Ender3tf2sdPlugin(octoprint.plugin.OctoPrintPlugin):
