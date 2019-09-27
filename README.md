@@ -1,6 +1,8 @@
 # OctoPrint-Ender3tf2sd
 
-**TODO:** Describe what your plugin does.
+A simple plugin to make OctoPrint recognize the SD card in your Ender 3 (Pro).
+
+It seems that Marlin (depending on which version you use, I guess) sends "TF card ok" instead of "SD card ok" as OctoPrint expects. People in the OcotPrint community solved this by uploading a plugin via SSH (see [Thread on the forums](https://community.octoprint.org/t/octopi-not-reading-sd-card-or-print-progress-from-ender-3-solved/9821/5)). I wanted this to be installable via the WebUI, though, which is why I made this plugin.
 
 ## Setup
 
@@ -9,9 +11,6 @@ or manually using this URL:
 
     https://github.com/mcdeck/OctoPrint-Ender3tf2sd/archive/master.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
-
 ## Configuration
 
-**TODO:** Describe your plugin's configuration options (if any).
+No configuration necessary.
