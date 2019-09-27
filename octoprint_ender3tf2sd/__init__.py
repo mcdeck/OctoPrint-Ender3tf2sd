@@ -25,7 +25,7 @@ class Ender3tf2sdPlugin(octoprint.plugin.OctoPrintPlugin):
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/mcdeck/OctoPrint-Ender3tf2sd/archive/{target_version}.zip"
+				pip="https://github.com/mcdeck/OctoPrint-Ender3tf2sd/archive/{target}.zip"
 			)
 		)
 
